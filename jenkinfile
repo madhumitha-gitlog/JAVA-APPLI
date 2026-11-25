@@ -1,0 +1,7 @@
+stage('Checkout') {
+    steps {
+        git branch: 'Master',
+            credentialsId: 'github-token',
+            url: 'https://github.com/madhumitha-gitlog/java-cicd-project.git'
+    }
+}
