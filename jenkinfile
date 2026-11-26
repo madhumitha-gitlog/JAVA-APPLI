@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'Master',
+                git branch: 'main',
                     url: 'https://github.com/madhumitha-gitlog/java-cicd-project.git'
             }
         }
